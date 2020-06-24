@@ -1,0 +1,47 @@
+/*form*/
+form{
+	width: 375px;
+	margin: 0 auto;
+	padding: 25px;
+	margin-top: 15px;
+	background-color: #99ffd6;
+}
+label{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	margin: 5px;
+}
+input{
+	padding: 14px 0;
+	font-size: 17px;
+	width: 99%;
+	background: transparent;
+	border:0;
+	border-bottom: 1px solid black;
+}
+#button{
+	background:green;
+	outline: none;
+	color: white;
+
+	font-size: 30px;
+	font-family: 'Sofia', cursive;
+	margin: 20px 0;
+}
+footer{
+	clear: both;
+	color: white;
+	text-align: center;
+	background-color: #111;
+}
+
+h2{
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 500px;
+    -webkit-margin-end: 23px;
+    font-size: 40px;
+}
+

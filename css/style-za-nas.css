@@ -1,0 +1,169 @@
+body{
+	font-family:;
+	font-size:15px;
+	line-height:1.42857141;
+	color:#000 !important;
+	background-color:#f5f7f8;
+}
+
+ul.topnav{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+}
+ul.topnav li {
+	display: inline-block;
+	width:  150px;
+	}
+
+ul.topnav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #ccc}
+ul.topnav li a.active {background-color:#4CAF50}
+
+
+.container{
+	width: 100%;
+	padding: 0.01em 16px;
+}
+
+.leftcontainer{
+	width: 24.99999%;
+	float: left;
+}
+
+.box {
+	color: #000 !important;
+	background-color: #4b923947!important;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,,0,0.16),
+	            0 2px 10px 0 rgba(0,0,,0,0.12)
+}
+
+.boxcontainer{
+	margin-top: 1em;
+	padding: 0.01em 16px;
+}
+
+.box-center{
+	text-align: center!important;
+}
+
+.box-left{
+	text-align: center!important
+}
+.box-circle{
+	border-radius: 50%;
+}
+
+.clearfix:after, .clearfix:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.center-container{
+	width: 58.33333%;
+	float: left;
+	background-color: transparent;
+}
+
+.center-container-buffer{
+	margin:0.1em;
+
+}
+
+.postdata{
+	margin: 0;
+	padding: 0;
+}
+
+.postdata .postdata{
+	width: 19.9999%;
+}
+
+
+.postdata .picdata{
+	margin: 0;
+	padding: .5em;
+}
+
+.postdata .namedate{
+	margin: 0;
+	padding: 0;
+}
+
+.right-container{
+	width: 16.66666%;
+	float: left;
+}
+
+.boxformat{
+	text-align: center;
+}
+
+.pic{
+	max-width: 100%;
+	height: auto;
+}
+
+.event-button{
+	display: block;
+	max-width: 100%;
+	color: #000!important;
+	background-color: #dfe5e8!important;
+	user-select: none;
+	border: none;
+	outline: 0;
+	padding: .5em 1em;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+    white-space: nowrap;
+
+}
+
+@media screen and (max-width: 768px){
+	.right-container{
+		display: none;
+	}
+	.center-container{
+		width: 74.9999%;
+	}
+
+    .center-container-buffer{
+    	margin: 0 0 0 1em;
+    }
+
+    .picavat{
+    	width: 54px;
+    	height: auto;
+    }
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
